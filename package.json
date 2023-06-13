@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "null",
-    "start": "node index",
+    "start": "prisma generate && node index",
     "dev": "nodemon index"
   },
   "repository": {
