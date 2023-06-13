@@ -1,0 +1,36 @@
+{
+  "name": "realtor-backend",
+  "version": "1.0.0",
+  "description": "Backend for Realtor",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "null",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivineDemon/realtor-backend.git"
+  },
+  "keywords": [
+    "Node.js",
+    "MongoDB"
+  ],
+  "author": "Mushood Hanif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DivineDemon/realtor-backend/issues"
+  },
+  "homepage": "https://github.com/DivineDemon/realtor-backend#readme",
+  "dependencies": {
+    "@prisma/client": "^4.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "prisma": "^4.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
